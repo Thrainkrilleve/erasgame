@@ -63,9 +63,26 @@ cd erasgame
 ```
 
 ### Running the Game
+
+**In the dev container (for development):**
 ```bash
-# Instructions to be added
+# Build the project
+cmake -B build -S .
+cmake --build build
+
+# The executable is created at: build/erasgame
 ```
+
+**To run with graphics (on your local machine):**
+```bash
+# If cloning to your local machine
+./build/erasgame
+```
+
+**Note:** The dev container doesn't have display support configured. To test the game with graphics:
+- Clone the repo to your local Linux/Mac machine, or
+- Use Windows with WSL2 (with WSLg for graphics), or
+- Configure X11 forwarding in your dev container
 
 ## 📁 Project Structure
 ```

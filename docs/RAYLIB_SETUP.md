@@ -28,11 +28,20 @@ cmake -B build -S .
 cmake --build build
 ```
 
+**Build output:** The executable will be created at `build/erasgame`
+
 ### 3. Run the Game
 
+**On Local Machine (with display):**
 ```bash
 ./build/erasgame
 ```
+
+**In Dev Container:**
+The dev container doesn't have display configured by default. The project builds successfully, but to run the game you need:
+- Copy to your local machine, or
+- Use WSL2 with WSLg on Windows, or
+- Configure X11 forwarding
 
 Or use VS Code tasks:
 - Press `Ctrl+Shift+B` to build
