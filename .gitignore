@@ -1,0 +1,53 @@
+# Build outputs
+build/
+dist/
+*.exe
+*.app
+*.apk
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+
+# Godot
+.import/
+export.cfg
+export_presets.cfg
+*.translation
+
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+*.csproj
+*.unityproj
+*.sln
+
+# Save data (for development - remove in production)
+data/*.ini
+saves/
+
+# Logs
+*.log
+
+# Assets (large files - consider Git LFS)
+# Uncomment if you want to track assets separately
+# *.png
+# *.jpg
+# *.wav
+# *.ogg
